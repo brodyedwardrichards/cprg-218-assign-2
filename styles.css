@@ -1,0 +1,41 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: monospace;
+  }
+
+
+/* Hero */
+.hero-container {
+    background-image: url(./assets/hero.jpg);
+    height: 100%;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-text h1 {
+    font-size: 30px;
+}
+
+.hero-text p {
+    font-size: 20px;
+}
+
+/* Content */
+
+.content-text {
+    text-align: center;
+}
+
+
