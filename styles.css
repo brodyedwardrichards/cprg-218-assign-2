@@ -2,14 +2,14 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: monospace;
+    background-color: rgb(211,211,211);
   }
 
 
 /* Hero */
 .hero-container {
-    background-image: url(./assets/hero.jpg);
+    background-image: url(./assets/heroIMG.jpg);
     height: 100%;
-    color: white;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,17 +19,27 @@ body, html {
 .hero-text {
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 23%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .hero-text h1 {
-    font-size: 30px;
+    font-size: 120px;
+    color: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
 }
 
 .hero-text p {
+    color: white;
     font-size: 20px;
+}
+
+#designer {
+    font-size: 30px;
+    color: black;
 }
 
 /* Content */
@@ -37,6 +47,15 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
+}
+
+.intro h1 {
+    font-size: 60px;
+}
+
+.intro p {
+    font-size: 16px;
 }
 
 .content-container {
@@ -54,13 +73,16 @@ body, html {
 }
 
 .content-right {
-    background-image: url(assets/pp.jpg);
+    background-image: url(./assets/mapIMG.png);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    border: solid black 2px;
 }
+
+
 /* .content-text {
     text-align: center;
 }
@@ -126,7 +148,7 @@ body, html {
 
 #jackbellaIMG {
     grid-column: 2/3;
-    grid-row: 3/4
+    grid-row: 3/4;
     object-fit: contain;
     max-width: 100%;
 
