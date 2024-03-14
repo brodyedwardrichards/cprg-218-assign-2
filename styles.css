@@ -33,14 +33,42 @@ body, html {
 }
 
 /* Content */
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-.content-text {
+.content-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 600px;
+}
+
+.content-left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 30px;
+}
+
+.content-right {
+    background-image: url(assets/pp.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/* .content-text {
     text-align: center;
 }
 
 .content-text h1 {
     font-size: 40px ;
 }
+*/
 
 
 /* Card */
@@ -55,7 +83,7 @@ body, html {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 20px;
-    margin: 20px;
+    margin: 50px;
 }
 
 #calgaryIMG {
@@ -128,7 +156,7 @@ body, html {
 
 */
 
- /*.calgaryWRAP {
+ .calgaryWRAP {
     position: relative;
 }
 
@@ -151,7 +179,7 @@ body, html {
     visibility: visible;
     opacity: 1;
 }
-*/
+
 
 
 /* Footer */
