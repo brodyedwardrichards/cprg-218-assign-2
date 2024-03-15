@@ -75,7 +75,6 @@ body, html {
 
 .content-right {
     background-image: url(./assets/mapIMG.png);
-    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -132,6 +131,52 @@ body, html {
 }
 */
 
+
+
+/* Card Container */
+
+.class-description {
+    text-align: center;
+}
+
+.container {
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.card {
+  border-radius: 0.25rem;
+  width: 24rem;
+  margin: 30px;
+  border: 2px solid;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2);
+}
+
+.classINFO {
+
+  height: auto;
+  width: 260px;
+  padding: 16px;
+  border-bottom: 2px solid;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    display: block;
+    margin-left: 70px;
+}
+
+.class-card-content {
+    text-align: center;
+    margin: 10px;
+}
 
 /* Card */
 
@@ -274,5 +319,6 @@ body, html {
         display: flex;
         flex-wrap: wrap;
     }
+
 }
 
