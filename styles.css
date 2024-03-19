@@ -48,6 +48,7 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     margin-top: 50px;
 }
 
@@ -70,6 +71,7 @@ body, html {
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+    text-align: center;
     margin: 30px;
 }
 
@@ -80,8 +82,7 @@ body, html {
     background-size: contain;
     position: relative;
     margin: 40px;
-    min-width: 558px;
-    
+    min-width: 400px;
 }
 
 /* Accordion */
@@ -96,6 +97,14 @@ body, html {
     border: none;
     outline: none;
     transition: 0.4s;
+    min-width: 273px;
+    max-width: 350px;
+}
+
+.accordion-container {
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .active, .accordion:hover {
@@ -134,7 +143,8 @@ body, html {
 /* Embeded Video */
 
 .youtube {
-    text-align: center;    
+    text-align: center;   
+    margin-top: 125px; 
 }
 
 em {
@@ -160,6 +170,13 @@ iframe {
         display: flex;
         flex-direction: column;
         align-items: center;        
+    }
+}
+
+@media screen and (min-width: 560px) {
+    .videos {
+        min-width: 250px;
+        height: auto;
     }
 }
 
@@ -355,6 +372,11 @@ li {
     .content-container {
         display: flex;
         flex-direction: column;
+        height: auto;
+    }
+
+    .content-right {
+        display: none;
     }
 }
 
