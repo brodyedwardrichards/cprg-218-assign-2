@@ -76,7 +76,7 @@ body, html {
 }
 
 .content-right {
-    background-image: url(./assets/mapIMG.png);
+    background-image: url(./assets/map.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
