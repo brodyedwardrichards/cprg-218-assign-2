@@ -63,6 +63,7 @@ body, html {
 .content-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 50px 5px;
     height: 600px;
 }
 
@@ -81,8 +82,6 @@ body, html {
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
-    margin: 40px;
-    min-width: 400px;
 }
 
 /* Accordion */
@@ -99,6 +98,7 @@ body, html {
     transition: 0.4s;
     min-width: 273px;
     max-width: 350px;
+    outline: 1px solid black;
 }
 
 .accordion-container {
@@ -144,7 +144,7 @@ body, html {
 
 .youtube {
     text-align: center;   
-    margin-top: 125px; 
+    margin-top: 50px; 
 }
 
 em {
@@ -370,13 +370,17 @@ li {
 
 @media screen and (max-width: 830px) {
     .content-container {
-        display: flex;
-        flex-direction: column;
-        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .content-left {
+        display: inline-flex;
     }
 
     .content-right {
-        display: none;
+        margin: 0;
     }
 }
 
