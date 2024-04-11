@@ -108,7 +108,8 @@ body, html {
 }
 
 .active, .accordion:hover {
-    background-color: grey;
+    background-color: #371F76;
+    color: white;
 }
 
 .drop {
