@@ -180,6 +180,10 @@ iframe {
     }
 }
 
+.youtube p {
+    font-size: 20px;
+}
+
 /* Card Container */
 
 .class-description {
